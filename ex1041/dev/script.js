@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("dev/stdin", "utf8");
 var lines = input.split("\n");
 
-const valores = ex.split(' ');
+const valores = lines[0].split(' ');
 
 const x = parseFloat(valores[0])
 const y = parseFloat(valores[1])
